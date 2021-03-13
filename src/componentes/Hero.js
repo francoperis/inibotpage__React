@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './style/hero.css'
-import FiguraGrua from './images/grua.png'
+import FiguraGrua from '../images/grua.png'
 import Header from './Header.js'
 
 class Hero extends React.Component{

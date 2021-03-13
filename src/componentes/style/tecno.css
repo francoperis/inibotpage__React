@@ -1,0 +1,24 @@
+.tecno {
+  background-color: #d1ebff;
+  width: 100vw;
+  height: 50vh;
+}
+
+.tecno1__child {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+.tecno1__child li img {
+  width: 150px;
+  height: 150px;
+  margin: 0 50px;
+}
+
+.tecno1__h2 h2 {
+  font-size: 5rem;
+  color: #001a46;
+  text-align: center;
+}

@@ -1,11 +1,15 @@
 import React from 'react';
 
 import Hero from '../componentes/Hero.js';
+import Tecno from '../componentes/Tecno.js';
 
 class Pages extends React.Component{
     render() {
         return(
-            <Hero />
+            <div>
+                <Hero />
+                <Tecno />
+            </div>
         )
     }
 }
@@ -13,3 +17,4 @@ class Pages extends React.Component{
 
 
 export default Pages;
+

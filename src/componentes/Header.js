@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './style/header.css'
-import Logopage from './images/paglogo.png'
+import Logopage from '../images/paglogo.png'
 class Header extends React.Component{
     render() {
         return (
