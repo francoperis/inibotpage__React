@@ -7,22 +7,18 @@
   color: #001a46;
   background-color: #ffffff;
   width: 100vw;
-  height: 80vh;
+  height: 50vh;
   font-weight: 100;
 }
 
 .about-us__h2 {
   font-size: 3rem;
-  text-align: center;
-  display: flex;
-  margin-top: 10px;
   font-weight: bold;
 }
 
 .about-us p {
   font-size: 2rem;
   color: #001a46;
-  width: 600px;
+  width: 50vw;
   text-align: center;
-  height: 20%;
 }
