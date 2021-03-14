@@ -1,34 +1,38 @@
 import React from 'react';
 
+import FormImag from '../images/image.png';
 class Form extends React.Component{
     handleChange = e => {
-        console.log ({
-            value : e.target.value
-
+        console.log ({ 
+            name : e.target.name,
+            value : e.target.value,
         })
+    }
 
+    handleChange = e => {
+        console.log ('Button was clicked')
     }
-    handleClick = e => {
-        console.log ('Mensaje enviado')
-    }
+
+
     render() {
         return(
-            <div>
-                <h3>
-                    ENVIANOS TU MENSAJE
-                </h3>
+            <div className="form">
+                <div className="form-img">
+                    <img src ={FormImag} alt="Form-img" />
+                </div>
 
-                <form>
-                    <div>
-                        <label>Nombre</label>
-                        <input onChange={this.handleChange} className="input-n" type="text" name="name" required></input>
-                        <label>Email</label>
-                        <input className="input-e" type="email" name="Email" required></input>
-                        <label>Mensaje</label>
-                        <textarea className="text" type="textarea" minLength ="15" name="Mensaje" required></textarea>
-                    </div>
-                    <button onClick={this.handleClick} className="button" type="button">ENVIAR</button>
-                </form>
+                <div className="form-action">
+                    <h1>ENVIANOS TU MENSAJE</h1>
+
+                    <form>
+                        <div>
+                            <label>Nombre</label>
+                            <input onChange={this.handleChange} className="form-name" type="text" name="nombre" />
+                        </div>
+
+                        <button type="button" onClick={this.handleClick} className="form-button" />
+                    </form>
+                </div>
             </div>
         )
     }

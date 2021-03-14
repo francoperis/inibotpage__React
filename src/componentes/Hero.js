@@ -7,8 +7,11 @@ import Header from './Header.js'
 class Hero extends React.Component{
     render() {
         return(
+            
             <div className="banner">
-                <Header />
+                <div>
+                    <Header />
+                </div>
                 <div className="main">
                     <div className="main-hero">
                         <h1 className="main-hero__h1">DESARROLLO <br/> DE SOFTWARE</h1>
@@ -23,3 +26,4 @@ class Hero extends React.Component{
 
 
 export default Hero;
+

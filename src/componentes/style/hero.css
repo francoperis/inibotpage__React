@@ -1,8 +1,7 @@
 .banner {
   background-image: url(../../images/banner.png);
-  display: flex;
   background-position: left center;
-  background-repeat: round;
+  background-repeat: no-repeat;
 }
 .main {
   display: flex;
@@ -26,5 +25,5 @@
 .main-hero__img {
   display: flex;
   align-items: center;
-  width: 850px;
+  width: 800px;
 }

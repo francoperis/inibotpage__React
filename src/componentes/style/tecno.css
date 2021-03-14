@@ -6,7 +6,7 @@
 
 .tecno1__child {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
   padding: 20px;
@@ -17,7 +17,8 @@
 }
 
 .tecno1__h2 h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #001a46;
   text-align: center;
+  padding: 5px 0;
 }
