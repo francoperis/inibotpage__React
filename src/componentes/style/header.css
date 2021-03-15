@@ -1,9 +1,9 @@
 .header {
-  width: 100vw;
+  width: 100%;
   position: absolute;
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 15px 0px;
   align-items: center;
 }
 .header-img {
@@ -31,7 +31,7 @@
   width: 50vw;
   justify-content: space-evenly;
 }
-.navbar-ul li:active {
+.navbar-ul__li:active {
   color: #fff;
   background-color: #001a46;
 }

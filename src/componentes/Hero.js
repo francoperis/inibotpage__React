@@ -6,8 +6,7 @@ import Header from './Header.js'
 
 class Hero extends React.Component{
     render() {
-        return(
-            
+        return(            
             <div className="banner">
                 <div>
                     <Header />

@@ -13,15 +13,9 @@ class Header extends React.Component{
             <div>
                 <nav className="navbar">
                     <ul className="navbar-ul">
-                        <li className="navbar-ul__li">
-                            <a href="#">ABOUT US</a>
-                        </li>
-                        <li className="navbar-ul__li">
-                            <a href="#">TECNOLOGIA</a>
-                        </li>
-                        <li className="navbar-ul__li">
-                            <a href="#">FORMULARIO</a>
-                        </li>
+                        <li><a href="#profile-banner" className="navbar-ul__li">ABOUT</a></li>
+                        <li><a href="#profile-tecno" className="navbar-ul__li">NOSOTROS</a></li>
+                        <li><a href="#profile-form" className="navbar-ul__li">FORMULARIO</a></li>
                     </ul>
                 </nav>
             </div>
