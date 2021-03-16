@@ -30,6 +30,7 @@
   display: flex;
   width: 50vw;
   justify-content: space-evenly;
+  list-style: none;
 }
 .navbar-ul__li:active {
   color: #fff;
@@ -37,4 +38,19 @@
 }
 .navbar-ul__li a {
   text-decoration: none;
+}
+
+@media (max-width: 768px){
+  .header{
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+
+
+
 }

@@ -22,3 +22,19 @@
   width: 50vw;
   text-align: center;
 }
+
+@media (max-width:768px) {
+  .about-us{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    
+    
+  }
+
+  .about-us__h2{
+    font-size: 30px;
+    margin: 20px 0;
+  }
+
+}

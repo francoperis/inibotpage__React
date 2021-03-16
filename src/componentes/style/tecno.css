@@ -10,10 +10,11 @@
   flex-direction: row;
   align-items: center;
   padding: 20px;
+  list-style: none;
 }
 .tecno1__child li img {
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
 .tecno1__h2 h2 {
@@ -21,4 +22,17 @@
   color: #001a46;
   text-align: center;
   padding: 20px 0;
+}
+
+@media (max-width: 768px){
+  .tecno{
+    height: 100%;
+  }
+  .tecno1__child{
+    display: flex;
+    flex-flow: column wrap;;
+    padding: 0 0 15px 0;
+  
+
+  }
 }
